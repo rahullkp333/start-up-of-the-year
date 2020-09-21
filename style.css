@@ -1,0 +1,46 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(lapi.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+hr {
+   border-color: blue;
+   border-width: 3px;
+   max-width:65px;
+}
+h1{
+	font-size: 3rem;
+	color: green;
+}
+
+.btn {
+	font-weight: 700;
+	border-top-left-radius:300px;
+	border-top-right-radius:300px;
+	border-bottom-left-radius:300px;
+	border-bottom-right-radius:70px;  
+	text-transform: uppercase;
+}
+.btn-primary {
+	background-color: #F05F00;
+	border-color: #F05F00;
+	transition: 0.7s;
+}
+.btn-primary:hover {
+	background-color: #F05F00;
+	border-color:#F05F00;
+    transform: scale(0.8);
+}
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.buffer{
+	height: 12rem;
+}
